@@ -1,0 +1,11 @@
+.navButton {
+    margin: 0px 2rem;
+    padding: 1rem 3rem;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.active {
+    border: 3px solid black;
+}
