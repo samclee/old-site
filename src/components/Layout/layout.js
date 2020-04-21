@@ -5,15 +5,14 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React, {useState} from "react"
+import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "../Header/header"
-import TabTypes from "../../types/tabTypes"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+const Layout = (props) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -24,14 +23,12 @@ const Layout = ({ children }) => {
     }
   `)
 
-  const [curTab, setTab] = useState(TabTypes.GAMES);
-
   return (
     <>
       <Header
         siteTitle={data.site.siteMetadata.title}
-        curTab={curTab}
-        setTab={setTab}
+        curTab={props.curTab}
+        setTab={props.setTab}
       />
       <div
         style={{
@@ -40,7 +37,7 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        {children}
+        {props.children}
       </div>
     </>
   )
