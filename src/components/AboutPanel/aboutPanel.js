@@ -1,13 +1,18 @@
 import React from "react"
+import "./aboutPanel.css"
 
 const AboutPanel = (props) => {
     let style = {}
     style.display = (props.curTab === props.tabType) ? "block" : "none"
 
     return (
-        <div style={style}>
+        <div id="aboutPanel" style={style}>
             <h1>About me</h1>
-            hlo hlo hlo
+            <div>Hi hi hi hi hi! I'm Sam, I like making games! I wish I had more to write here but I'm pretty much just a game dev hobbyist!</div>
+            <ul id="contactList">
+                <li><a href="https://samclee.itch.io/">itch.io</a></li>
+                <li><a href="https://github.com/samclee">Github</a></li>
+            </ul>
         </div>
     )
 }

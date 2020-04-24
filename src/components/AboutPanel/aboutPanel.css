@@ -1,0 +1,17 @@
+#aboutPanel {
+    width: 80%;
+    min-width: 50%;
+    font-size: x-large;
+}
+
+#contactList {
+    margin-top: 1rem;
+}
+
+#contactList a:link {
+    color: black;
+}
+
+#contactList a:visited {
+    color: black;
+}
