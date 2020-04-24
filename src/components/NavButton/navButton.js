@@ -3,7 +3,7 @@ import React from "react"
 import "./navButton.css"
 
 const NavButton = (props) => {
-    let classes = "navButton";
+    let classes = "navButton hvr-skew";
     if (props.tabType === props.curTab) {
         classes += " active"
     }
