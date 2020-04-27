@@ -16,6 +16,9 @@ const AboutPanel = (props) => {
                 <li><a href="https://github.com/samclee"
                     className="hvr-grow-shadow">
                     Github</a></li>
+                <li><a href="https://twitter.com/sam_c_lee"
+                    className="hvr-grow-shadow">
+                    Twitter</a></li>
             </ul>
         </div>
     )

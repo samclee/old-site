@@ -2,6 +2,11 @@
     width: 80%;
     min-width: 50%;
     font-size: x-large;
+    font-family: "Raleway", serif;
+}
+
+#aboutPanel h1 {
+    font-family: "Raleway", serif;
 }
 
 #contactList {

@@ -3,6 +3,8 @@ import React from "react"
 
 import NavBar from "../NavBar/navBar"
 
+require("typeface-raleway")
+
 const Header = (props) => (
   <header
     style={{
@@ -16,7 +18,7 @@ const Header = (props) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0, textAlign: "center" }}>
+      <h1 style={{ margin: 0, textAlign: "center", fontFamily: "Raleway", fontWeight: 300 }}>
           {props.siteTitle}
       </h1>
       <NavBar

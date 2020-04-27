@@ -4,6 +4,7 @@
     background-color: transparent;
     border: 1px solid black;
     cursor: pointer;
+    font-family: "Raleway", sans-serif;
 }
 
 .navButton.active {
