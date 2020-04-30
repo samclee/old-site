@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{WXdd:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),r=n.n(a),c=n("CGcg"),o=n("ltCo"),s=n("vrFN");t.default=function(){return r.a.createElement(c.a,{curTab:o.a.THOUGHTS},r.a.createElement(s.a,{title:"Thoughts"}),r.a.createElement("div",{style:{display:"flex",justifyContent:"center"}},"thoughts go here"))}}}]);
+//# sourceMappingURL=component---src-pages-thoughts-page-js-cf0c700565e3e1f8dcf8.js.map

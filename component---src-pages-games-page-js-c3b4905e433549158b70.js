@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{uu3j:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),r=a.n(n),c=a("CGcg"),s=a("ltCo"),u=a("vrFN");t.default=function(){return r.a.createElement(c.a,{curTab:s.a.GAMES},r.a.createElement(u.a,{title:"Games"}),r.a.createElement("div",{style:{display:"flex",justifyContent:"center"}},"games go here"))}}}]);
+//# sourceMappingURL=component---src-pages-games-page-js-c3b4905e433549158b70.js.map
