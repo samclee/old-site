@@ -21,10 +21,7 @@ const Header = (props) => (
       <h1 style={{ margin: 0, textAlign: "center", fontFamily: "Raleway", fontWeight: 300 }}>
           {props.siteTitle}
       </h1>
-      <NavBar
-        curTab={props.curTab}
-        setTab={props.setTab}
-      />
+      <NavBar curTab={props.curTab} />
     </div>
   </header>
 )

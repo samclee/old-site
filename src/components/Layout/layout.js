@@ -28,7 +28,6 @@ const Layout = (props) => {
       <Header
         siteTitle={data.site.siteMetadata.title}
         curTab={props.curTab}
-        setTab={props.setTab}
       />
       <div
         style={{

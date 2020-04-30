@@ -10,21 +10,21 @@ const NavBar = (props) => {
         <div id="navBar">
             <NavButton
                 curTab={props.curTab}
-                setTab={props.setTab}
                 tabType={TabTypes.ABOUT}
+                to="/"
                 text="about me"
             />
             <NavButton
                 curTab={props.curTab}
-                setTab={props.setTab}
                 tabType={TabTypes.GAMES}
                 text="games portfolio"
+                to="/gamesPage/"
             />
             <NavButton
                 curTab={props.curTab}
-                setTab={props.setTab}
                 tabType={TabTypes.THOUGHTS}
                 text="my opinions"
+                to="/thoughtsPage/"
             />
         </div>
     )

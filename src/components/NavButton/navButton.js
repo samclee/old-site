@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Link } from "gatsby"
 import "./navButton.css"
 
 const NavButton = (props) => {
@@ -7,18 +7,14 @@ const NavButton = (props) => {
     if (props.tabType === props.curTab) {
         classes += " active"
     }
-
-    const clickCallback = () => {
-        props.setTab(props.tabType)
-    }
     
     return (
-    <button
-        className={classes}
-        onClick={clickCallback}
-    >
-        {props.text}
-    </button>
+        <Link
+            to={props.to}
+            className={classes}
+        >
+            {props.text}
+        </Link>
     )
 }
 

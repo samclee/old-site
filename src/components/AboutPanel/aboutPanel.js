@@ -2,11 +2,8 @@ import React from "react"
 import "./aboutPanel.css"
 
 const AboutPanel = (props) => {
-    let style = {}
-    style.display = (props.curTab === props.tabType) ? "block" : "none"
-
     return (
-        <div id="aboutPanel" style={style}>
+        <div id="aboutPanel">
             <h1>About me</h1>
             <div>Hi hi hi hi hi! I'm Sam, I like making games! I wish I had more to write here but I'm pretty much just a game dev hobbyist!</div>
             <ul id="contactList">

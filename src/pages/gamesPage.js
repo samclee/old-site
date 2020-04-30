@@ -2,18 +2,18 @@ import React from "react"
 
 import Layout from "../components/Layout/layout"
 import TabTypes from "../types/tabTypes"
-import AboutPanel from "../components/AboutPanel/aboutPanel"
+
 import SEO from "../components/seo"
 
-const IndexPage = () => {
+const GamesPage = () => {
   return (
-    <Layout curTab={TabTypes.ABOUT}>
-      <SEO title="Home" />
+    <Layout curTab={TabTypes.GAMES}>
+      <SEO title="Games" />
       <div style={{display: "flex", justifyContent: "center"}}>
-        <AboutPanel />
+        games go here
       </div>
     </Layout>
   )
 }
 
-export default IndexPage
+export default GamesPage
