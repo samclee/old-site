@@ -1,0 +1,14 @@
+.articleList {
+    width: 80%;
+    min-width: 50%;
+    font-size: x-large;
+    font-family: "Raleway", serif;
+}
+
+.articleList a:link {
+    color: black;
+}
+
+.articleList a:visited {
+    color: black;
+}
