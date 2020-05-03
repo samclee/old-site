@@ -23,7 +23,7 @@ const NavBar = (props) => {
             <NavButton
                 curTab={props.curTab}
                 tabType={TabTypes.THOUGHTS}
-                text="my opinions"
+                text="my thoughts"
                 to="/thoughtsPage/"
             />
         </div>

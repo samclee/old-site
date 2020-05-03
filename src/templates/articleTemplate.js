@@ -11,7 +11,7 @@ export default function Template({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { html } = markdownRemark
   return (
-    <Layout curTab={TabTypes.THOUGHTS}>    
+    <Layout curTab={TabTypes.THOUGHTS}>
       <div style={{display: "flex", justifyContent: "center"}}>
           <div
               id="articlePanel"

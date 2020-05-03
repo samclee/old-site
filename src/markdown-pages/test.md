@@ -1,5 +1,5 @@
 ---
-path: "/mediaType/mediaName"
+path: "/test"
 title: "My title"
 ---
 # Header

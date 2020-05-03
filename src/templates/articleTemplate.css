@@ -4,3 +4,22 @@
     font-size: x-large;
     font-family: "Raleway", serif;
 }
+
+.backButton {
+    width: 80%;
+    min-width: 50%;
+    font-size: x-large;
+    font-family: "Raleway", serif;
+}
+
+.backButton a {
+    float: left;
+}
+
+.backButton a:link {
+    color: black;
+}
+
+.backButton a:visited {
+    color: black;
+}
